@@ -1,0 +1,40 @@
+@import './colors';
+main {
+    margin-top: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background: $color-blue;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 110px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding-bottom: 5%;
+    padding-right: 5%;
+    img {
+        width: 38vw;
+        max-width: 180px;
+        display: block;
+        background: none;
+        padding-left: 5%;
+        padding-top: 15%;
+        margin-left: 10%;
+    }
+    .icons {
+        margin-top: 10%;
+        background: $color-blue;
+        display: flex;
+        flex-direction: row;
+        padding-left: 10px;
+        padding-top: 5px;
+        text-align: center;
+          img {
+            width: 12vw;
+            max-width: 52px;
+            background: none;
+            background: $color-black;
+            border-radius: 7px;
+            padding: 12px;
+            margin-bottom: 10px;
+        }
+}
+}

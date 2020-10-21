@@ -1,0 +1,13 @@
+@import './_partials/main', './_partials/colors', './_partials/section', './_partials/media';
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    box-sizing: border-box;
+    background-image: url('../images/bg-mobile.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-size: 14px;
+    color: $color-white;
+    font-family: 'Raleway', sans-serif;
+}

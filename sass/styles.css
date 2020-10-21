@@ -1,0 +1,133 @@
+main {
+  margin-top: 15%;
+  margin-left: 10%;
+  margin-right: 10%;
+  background: #1d2c67;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 110px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding-bottom: 5%;
+  padding-right: 5%;
+}
+
+main img {
+  width: 38vw;
+  max-width: 180px;
+  display: block;
+  background: none;
+  padding-left: 5%;
+  padding-top: 15%;
+  margin-left: 10%;
+}
+
+main .icons {
+  margin-top: 10%;
+  background: #1d2c67;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding-left: 10px;
+  padding-top: 5px;
+  text-align: center;
+}
+
+main .icons img {
+  width: 12vw;
+  max-width: 52px;
+  background: none;
+  background: #0c122c;
+  border-radius: 7px;
+  padding: 12px;
+  margin-bottom: 10px;
+}
+
+section {
+  background: #1d2c67;
+  margin-top: 3%;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 20px;
+  padding: 8%;
+  height: 190px;
+}
+
+section p, section span, section h2 {
+  margin-left: 5%;
+  margin-top: 5%;
+  background: #1d2c67;
+}
+
+section p {
+  text-align: center;
+  margin-left: 0;
+}
+
+section b {
+  background: #1d2c67;
+}
+
+section meter {
+  margin-left: 5%;
+  margin-top: 25px;
+  width: 90%;
+  border-radius: 7px;
+  background: #0c122c;
+  margin-bottom: 10%;
+}
+
+section #meter::-webkit-meter-suboptimum-value {
+  background: #ffa399 to #ff4d97;
+}
+
+section span#r-span {
+  float: right;
+}
+
+section .gb {
+  background: #dddbff;
+  margin-top: 7%;
+  margin-left: 13px;
+  border-radius: 10px;
+  width: 50vw;
+  padding: 3.5px 1.5px 3.5px 1.5px;
+  position: absolute;
+  right: 25%;
+  text-align: center;
+}
+
+section .gb h2 {
+  text-align: center;
+  background-color: #dddbff;
+  color: #0c122c;
+  font-size: 40px;
+  display: inline;
+}
+
+section .gb span {
+  color: #848794;
+  background-color: #dddbff;
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-left: 0px;
+  vertical-align: middle;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-image: url("../images/bg-mobile.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  font-size: 14px;
+  color: #dddbff;
+  font-family: 'Raleway', sans-serif;
+}
+/*# sourceMappingURL=styles.css.map */
