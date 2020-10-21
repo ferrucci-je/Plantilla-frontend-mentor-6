@@ -1,0 +1,18 @@
+@keyframes movimiento-diagonal {
+   from{
+    left: 0px;
+    top: 0px;
+   } 
+   to {
+    top: 400px;
+    left: 80px;
+   }
+}
+
+.gb {
+    animation-name: movimiento-diagonal;
+    animation-duration: 5s;
+    animation-delay: 0s;
+    animation-iteration-count: inherit;
+    animation-direction: alternate;
+}

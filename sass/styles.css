@@ -46,6 +46,41 @@ main .icons img {
   margin-bottom: 10px;
 }
 
+@-webkit-keyframes movimiento-diagonal {
+  from {
+    left: 0px;
+    top: 0px;
+  }
+  to {
+    top: 400px;
+    left: 80px;
+  }
+}
+
+@keyframes movimiento-diagonal {
+  from {
+    left: 0px;
+    top: 0px;
+  }
+  to {
+    top: 400px;
+    left: 80px;
+  }
+}
+
+.gb {
+  -webkit-animation-name: movimiento-diagonal;
+          animation-name: movimiento-diagonal;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-iteration-count: inherit;
+          animation-iteration-count: inherit;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+}
+
 section {
   background: #1d2c67;
   margin-top: 3%;
@@ -86,6 +121,7 @@ section #meter::-webkit-meter-suboptimum-value {
 
 section span#r-span {
   float: right;
+  margin-top: 0px;
 }
 
 section .gb {
@@ -115,6 +151,30 @@ section .gb span {
   font-size: 12px;
   margin-left: 0px;
   vertical-align: middle;
+}
+
+@keyframes movimiento-diagonal {
+  from {
+    left: 0px;
+    top: 0px;
+  }
+  to {
+    top: 400px;
+    left: 80px;
+  }
+}
+
+.gb {
+  -webkit-animation-name: movimiento-diagonal;
+          animation-name: movimiento-diagonal;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-iteration-count: inherit;
+          animation-iteration-count: inherit;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
 }
 
 * {

@@ -1,3 +1,4 @@
+@import "./animation";
 section {
     background: $color-blue;
     margin-top: 3%;
@@ -31,7 +32,7 @@ section {
     }
     span#r-span {
         float: right;
-        padding-bottom: 5px;
+        margin-top: 0px;
     }
     .gb {
         background: $color-white;
